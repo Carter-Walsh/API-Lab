@@ -1,7 +1,4 @@
-// const { default: axios } = require("axios");
-
 const button = document.querySelector("button");
-
 
 const handleClick = () => {
     axios.get("https://swapi.dev/api/planets/2").then((res) => {
